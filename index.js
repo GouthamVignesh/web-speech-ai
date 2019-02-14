@@ -33,7 +33,7 @@ io.on('connection', function(socket) {
     // Get a reply from API.ai
 
     let apiaiReq = apiai.textRequest(text, {
-      sessionId: bf493b6c18fb4a5bb6aeeac58ab6c1b7
+      sessionId: "88e58712-a1b0-4ea6-2142-4dd98dc2fb2e"
     });
 
     apiaiReq.on('response', (response) => {
